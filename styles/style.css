@@ -25,7 +25,7 @@
   line-height: 1.5rem;
   color: #5A5A5D;
 }
-.section-title{
+.common-title{
   font-size: 2.2rem;
   font-weight: 800;
   color: var(--primary-color);
@@ -48,7 +48,6 @@ nav{
 }
 .nav-logo{
   display: flex;
-  align-items: center;
   cursor: pointer;
 }
 nav .title{
@@ -58,8 +57,6 @@ nav .title{
   margin-left: .5rem;
   word-spacing: .4rem;
 }
-
-
 
 nav ul{
   display: flex;
@@ -82,7 +79,6 @@ nav li a{
   background-size: cover;
   background-position: center;
   text-align: center;
-  align-items: center;
   
 }
 .bannar-title{
@@ -100,9 +96,37 @@ nav li a{
   color: #ffffff;
 }
 
+
 .menu{
-  padding: 1rem;
-  background-color:rgba(red, green, rgb(49, 49, 227), 0.1)
+  display: flex;
+  justify-content: center;
+}
+.menu-background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#FFFFFF4D;
+  padding: .8rem 0;
+  border-radius: .4rem;
+  text-align: center;
+  width: 70%;
+  margin-left:4px;
+
+}
+.menu-background input{
+  padding: 1rem 1rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 22%;
+}
+
+.menu-background button{
+  display: flex;
+  align-items: center;
+  gap:.7rem;
+
 }
 .ban-button{
   display: flex;
@@ -133,7 +157,7 @@ margin-top: 6.25rem;
   margin-top: 5rem ;
   text-align: center;
 }
-.destination-title p{
+.destination-title p, .choose-article p{
   margin-top: 1.5rem;
   margin-bottom: 3rem;
   line-height: 1.6rem;
@@ -220,3 +244,237 @@ margin-top: 6.25rem;
       /* end */
 
       /*  Choose us section related styles */
+      .choose-article{
+        text-align: center;
+      }
+      .choose-article p{
+        margin-top: 1.5rem;
+
+      }
+      
+      .facility{
+        display: flex;
+        text-align: left;
+        gap: 1.5rem;
+        
+      }
+      .hotel{
+        background-color: #FBB5630D;
+        padding: 2rem 3rem 2rem 2rem;
+        border-radius: 1rem;
+      }
+      .service{
+        padding: 2rem 3rem 2rem 2rem;
+        background-color: #29CEF60D;
+        border-radius: 1rem;
+      }
+      .hotel h4, .service h4{
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: var(--primary-color);
+        margin-top: 1.8rem;
+      }
+      .hotel p, .service p{
+        margin-top: 1rem;
+        margin-bottom: 0;
+      }
+      .facility-2{
+        display: flex;
+        justify-content: center;
+      }
+      .best-price{
+        text-align: left;
+        width: 32rem;
+        padding: 2rem 3rem 2rem 2rem;
+        margin-top: 1.5rem;
+        background-color:#E944440D ;
+        border-radius: 1rem;
+      }
+      .best-price h4{
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: var(--primary-color);
+        margin-top: 1.8rem;
+      }
+      .best-price p{
+        margin-top: 1rem;
+        margin-bottom: 0;
+      }
+
+      /* deals and discounts */
+
+
+      .deals-discounts{
+        margin-top: 6.25rem;
+        text-align: center;
+      }
+
+      .packag-1{
+        background-image: url("/Images/Group\ 39.png");
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        color: #000000;
+        padding: 3rem;
+        border-radius: 1rem; 
+        margin-bottom: 5rem
+      }
+      .price{
+        background-color:#FFFFFFCC;
+        width:32rem ;
+        height: 24rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        text-align: left;
+      }
+      .price ul{
+        display: flex;
+        list-style: none;
+        
+      }
+      .price li{
+        display: flex;
+        align-items: center;
+        margin-right: 1.5rem;
+        gap: .5rem;
+        
+      }
+
+
+
+
+      .packag-2{
+        background-image: url("/Images/Group\ 40.png");
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+        color: #000000;
+        padding: 3rem;
+        border-radius: 1rem; 
+        margin-bottom: 5rem
+      }
+      .price-2{
+        background-color:#FFFFFFCC;
+        width:32rem ;
+        height: 24rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        text-align: left;
+      }
+      .price-2 ul{
+        display: flex;
+        list-style: none; 
+      }
+      .price-2 li{
+        display: flex;
+        align-items: center;
+        margin-right: 1.5rem;
+        gap: .5rem;
+      }
+
+      
+      .packag-3{
+        background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        color: #000000;
+        padding: 3rem;
+        border-radius: 1rem; 
+        margin-bottom: 5rem
+      }
+      .price-3{
+        background-color:#FFFFFFCC;
+        width:32rem ;
+        height: 24rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        text-align: left;
+      }
+      .price-3 ul{
+        display: flex;
+        list-style: none; 
+      }
+      .price-3 li{
+        display: flex;
+        align-items: center;
+        margin-right: 1.5rem;
+        gap: .5rem;
+      }
+
+      .discounts-price{
+        color:#FF5400;
+        margin-bottom: 1.5rem;
+        font-weight: 800;
+      }
+
+      
+
+
+
+
+
+
+
+
+
+
+      /* media quari */
+
+
+      @media screen and (max-width:600px) {
+        
+        header, main{
+          padding: 0 2rem ;
+        }
+        
+        .header-bannar{
+          height: 100%;
+          width: 100%;
+        }
+        .menu-background{
+          flex-direction: column;
+          margin-bottom: 1rem;
+          padding: 2rem 1rem;
+        }
+        .menu-background input{
+          margin-bottom: 1.5rem;
+
+          width: 90%;
+        }
+
+
+
+        nav, .our-popular, .facility{
+          flex-direction: column;
+        }
+        nav li{
+          margin-top: 1rem;
+          margin-left:1.5rem;
+        }
+        .our-populer-img{
+          width: 100%;
+        }
+        .our-populer-img img{
+          width: 100%;
+          margin-top: 2rem;
+        }
+        .plac{
+          grid-template-columns: repeat(1, 1fr);
+          
+          gap: 0;
+          row-gap: 1rem;
+        }  
+        .box{
+          padding: 1rem;
+        }      
+      }
