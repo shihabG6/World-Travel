@@ -36,3 +36,36 @@ span{
 
 
 /* header related styles */
+header, main{
+  max-width: 65rem;
+  margin: 0 auto;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3.25rem;
+}
+.nav-logo{
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color:var(--primary-color);
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav li{
+  text-decoration: none;
+  margin-right: 2.4rem;
+}
+nav li a{
+  text-decoration: none;
+  color: #424247;
+  font-size: 1rem;
+  font-family: 400;
+
+}
