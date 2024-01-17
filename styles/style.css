@@ -360,8 +360,8 @@ width: 100%;
 .perfect-place{
   display: flex;
   align-items: center;
-  gap: 2rem;
-  margin-top: 5rem;
+  gap: 1rem;
+  margin: 5rem 0;
 }
 .place-details{
   width: 50%;
@@ -383,7 +383,72 @@ width: 100%;
 
       /* form section */
 
+.form-discounts-bannar{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 5rem;
 
+}
+.form{
+  border: 2px solid #FF5400;
+  border-radius: 1rem;
+  width: 40%;
+  padding: 2.5rem;
+}
+.form h2{
+  margin-bottom: 1rem;
+}
+.form p{
+  margin-top: 1rem;
+  color: #5A5A5D;
+  text-align: justify;
+}
+hr{
+  margin: 1.5rem auto;
+}
+.form input{
+  height: 3.25rem;
+  width: 20rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color:#1313180D;
+}
+.subscribe{
+  width: 20rem;
+}
+.discounts-bannar{
+  position: relative;
+  width: 60%;
+  
+}
+.discounts-bannar img{
+  width: 100%;
+  position: relative;
+}
+.discounts-bannar .offer{
+  position: absolute;
+  bottom: 4.2rem;
+  right: 0.6rem;
+  width: 18rem;
+  height: 7.5rem;
+  border-radius: 1rem;
+  background-color: #FF5400;
+  text-align: center;
+  transform: rotate(-30deg);
+}
+.offer h6{
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+.offer h4{
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 800;
+}
 
 
 
@@ -488,6 +553,19 @@ width: 100%;
   width: 100%;
 }
 .place-view{
+  width: 100%;
+}
+
+/* form section */
+.form-discounts-bannar{
+  flex-direction: column;
+}
+.form{
+  width: 100%;
+  text-align: center;
+}
+
+.discounts-bannar{
   width: 100%;
 }
 
