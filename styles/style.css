@@ -312,6 +312,10 @@ width: 100%;
   margin-top: 6.25rem;
   text-align: center;
 }
+.deals-discounts h2, .delas-text{
+  margin-bottom: 2rem;
+}
+.deals-discounts 
 .deals-bannar{
   width: 100%;
   position: relative;
