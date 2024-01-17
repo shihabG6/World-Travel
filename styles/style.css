@@ -123,6 +123,16 @@ width: 100%;
   outline: none;
  
 }
+.input-btn{
+ text-wrap: nowrap;
+ padding-left: 20px;
+ padding-right: 20px;
+ 
+}
+.input-btn i{
+  padding-right: .5rem;
+ 
+}
 
 
             /* Tours section */
@@ -323,7 +333,7 @@ width: 100%;
   top: 2rem;
   right: 2rem;
   background-color:#FFFFFFCC;
-  width:32rem ;
+  max-width:32rem ;
   height: 24rem;
   padding: 2rem;
   border-radius: 1rem;
@@ -450,6 +460,40 @@ hr{
   font-weight: 800;
 }
 
+/* end */
+
+/* footer */
+footer{
+  background-color: #F3F3F3;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer h4{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.footer-description{
+  max-width: 45rem;
+  color: #5A5A5D;
+  text-align: center;
+  margin-bottom: .9rem;
+}
+footer .icon{
+  font-size: 2rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+footer hr{
+  width: 45rem;
+  margin-bottom: 2.5rem;
+}
 
 
 
