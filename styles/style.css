@@ -329,6 +329,14 @@ width: 100%;
   border-radius: 1rem;
   text-align: left;
 }
+.price-2{
+  left: 2rem;
+}
+.price p ,.place-details p{
+  margin-top: 1rem;
+  color: #5A5A5D;
+  text-align: justify;
+}
 .price ul{
   display: flex;
   list-style: none;
@@ -341,80 +349,39 @@ width: 100%;
   gap: .5rem;
   
 }
+.price h4{
+  margin-bottom: .8rem;
+}
 
 
+/* end */
 
-
-.packag-2{
-  background-image: url("/Images/Group\ 40.png");
-  height: 100%;
-  background-position: center;
-  background-size: cover;
+/* perfect-place */
+.perfect-place{
   display: flex;
   align-items: center;
-  justify-content:flex-start;
-  color: #000000;
-  padding: 3rem;
-  border-radius: 1rem; 
-  margin-bottom: 5rem
+  gap: 2rem;
+  margin-top: 5rem;
 }
-.price-2{
-  background-color:#FFFFFFCC;
-  width:32rem ;
-  height: 24rem;
-  padding: 2rem;
+.place-details{
+  width: 50%;
+}
+.place-details ul{
+  margin-left: .8rem;
+}
+
+.place-view{
+  width: 50%;
+}
+.place-view video{
+  width: 100%;
   border-radius: 1rem;
-  text-align: left;
+  
 }
-.price-2 ul{
-  display: flex;
-  list-style: none; 
-}
-.price-2 li{
-  display: flex;
-  align-items: center;
-  margin-right: 1.5rem;
-  gap: .5rem;
-}
+      /* end */
 
 
-.packag-3{
-  background-image: url("/Images/Group\ 13\ \(1\)\ \(1\).png");
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content:flex-end;
-  color: #000000;
-  padding: 3rem;
-  border-radius: 1rem; 
-  margin-bottom: 5rem
-}
-.price-3{
-  background-color:#FFFFFFCC;
-  width:32rem ;
-  height: 24rem;
-  padding: 2rem;
-  border-radius: 1rem;
-  text-align: left;
-}
-.price-3 ul{
-  display: flex;
-  list-style: none; 
-}
-.price-3 li{
-  display: flex;
-  align-items: center;
-  margin-right: 1.5rem;
-  gap: .5rem;
-}
-
-.discounts-price{
-  color:#FF5400;
-  margin-bottom: 1.5rem;
-  font-weight: 800;
-}
+      /* form section */
 
 
 
@@ -511,6 +478,17 @@ width: 100%;
   top: 3rem;
   left: 1.5rem;
 
+}
+
+/* perfect-place */
+.perfect-place{
+  flex-direction: column;
+}
+.place-details{
+  width: 100%;
+}
+.place-view{
+  width: 100%;
 }
 
 
